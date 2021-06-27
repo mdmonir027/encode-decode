@@ -13,6 +13,13 @@ body {
   border-radius: 4px;
 }
 
+@media screen and (max-width: 360px) {
+  .app {
+    position: absolute;
+    width: 200px;
+  }
+}
+
 .buttonGroup {
   display: flex;
   justify-content: center;
